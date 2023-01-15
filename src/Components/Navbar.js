@@ -41,15 +41,15 @@ const Navbar = () => {
       <nav
         className={`md:block md:fixed absolute md:top-8 md:left-1/3 w-auto md:py-4 md:border-solid md:border-2 md:rounded-full md:z-50 md:px-16 md:bg-white z-[-1] ${
           menu
-            ? "bg-slate-300 w-full md:w-auto h-screen md:h-auto fixed top-0 left-0 transition-all duration-300"
-            : "-left-full transition-all duration-300"
+            ? "bg-slate-300 w-full md:w-auto h-screen md:h-auto fixed top-0 left-0 transition-all duration-500"
+            : "-left-full transition-all duration-1000"
         }`}
       >
-        <ul className="md:flex pt-16 md:pt-0">
-          <li className="md:pr-6 md:pb-0 pb-3">Home</li>
-          <li className="md:pr-6 md:pb-0 pb-3">Features</li>
-          <li className="md:pr-6 md:pb-0 pb-3">Pricing</li>
-          <li className="md:pr-6 md:pb-0 pb-3">Log In</li>
+        <ul className="md:flex pt-20 md:pt-0 ml-4 text-3xl md:text-base font-semibold">
+          <li className="md:pr-6 md:pb-0 pb-5">Home</li>
+          <li className="md:pr-6 md:pb-0 pb-5">Features</li>
+          <li className="md:pr-6 md:pb-0 pb-5">Pricing</li>
+          <li className="md:pr-6 md:pb-0 pb-5">Log In</li>
           <li>Sign Up</li>
         </ul>
       </nav>
